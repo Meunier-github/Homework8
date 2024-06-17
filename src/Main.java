@@ -11,7 +11,7 @@ public class Main {
         Произвольный массив. Тип и количество данных определите сами.
         Самостоятельно выберите способ создания массива: с помощью ключевого слова или сразу заполненный элементами.*/
 
-        int [] arrayInt = {1,2,3};
+        int [] arrayInt = new int[]{1,2,3};
         double [] arrayDouble = {1.57, 7.654, 9.986};
         char [] arrayChar = {'a','b','c'};
 
@@ -28,6 +28,7 @@ public class Main {
             }
             System.out.print(arrayInt[i] + ", ");
         }
+
         for (int i = 0; i < arrayDouble.length; i++) {
             if (i == arrayDouble.length - 1) {
                 System.out.println(arrayDouble[i]);
